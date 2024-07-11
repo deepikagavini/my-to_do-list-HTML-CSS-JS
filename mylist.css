@@ -1,0 +1,53 @@
+body,html{
+    margin: 0;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    background-color: rgb(38, 219, 38);
+    padding: 50px 5px;
+}
+.white{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.add{
+    background-color: rgb(26, 168, 245);
+    border: 0cap;
+    border-radius: 7px;
+    width: 50px;
+   padding: 3px;
+}
+ol li:nth-child(2){
+    text-decoration:line-through;
+    background-color: gray;
+    
+}
+.clear{
+    background-color: rgb(26, 168, 245);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 9px;
+    border: none;
+    margin-right: 5px;
+}
+.empty{
+    background-color: brown;
+    border: none;
+    padding: 3px 13px;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+.save{
+    background-color: green;
+    border: 0;
+    padding: 3px 13px;
+    border-radius: 8px;
+}
+li{
+    list-style-type: none;
+}
